@@ -3,10 +3,10 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
-	<title>fullPage.js plugin by Alvaro Trigo</title>
-	<meta name="author" content="Alvaro Trigo Lopez" />
-	<meta name="description" content="fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple" />
-	<meta name="keywords"  content="fullpage,jquery,alvaro,trigo,plugin,fullscren,screen,full" />
+	<title>Yu Yu</title>
+	<meta name="author" content="Yu Yu" />
+	<meta name="description" content="personal website of Yu Yu" />
+	<meta name="keywords"  content="Yu Yu" />
 	<meta name="Resource-type" content="Document" />
 
 	
@@ -26,25 +26,42 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$.fn.fullpage({
-				slidesColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
+				scrollingSpeed: 500,
+				slidesColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff', '#f2f2f2', '#4BBFC3'],
+				anchors: ['welcome', 'about', 'work', 'project', 'honor', 'contact', 'lastPage'],
+				menu: '#menu'
 			});
 		});
 	</script>
 
 </head>
 <body>
-	
-<div class="section active" id="section0"><h1>Section</h1></div>
+	<div id="supperContainer" style="top: 0px;">
+
+<ul id="menu">
+	<li data-menuanchor="about" class="active"><a href="#about">Me</a></li>
+	<li data-menuanchor="work" class=""><a href="#work">Work</a></li>
+	<li data-menuanchor="project"><a href="#project">Projects</a></li>
+	<li data-menuanchor="honor"><a href="#honor">Honors</a></li>
+	<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+</ul>	
+<div class="section active" id="section0"><h1>Who Am I?</h1></div>
+<div class="section" id="section01"><h1>Yu Yu</h1></div>
 <div class="section" id="section1">
-    <div class="slide active"><div class="wrap"><h1>Hello fullPage.js</h1></div></div>
-    <div class="slide"><h1>This is an awesome plugin</h1></div>
-    <div class="slide"><h1>Which enables you to create awesome websites</h1></div>
+    <h1>Just testing it</h1>
+</div>
+<div class="section" id="section2">
+	<div class="slide active">
+		<div class="wrap"><h1><a href="http://www.michael54.com/hallway/">HallWay</a></h1></div>
+		<!-- <div ><img src="hallway.png"></div> -->
+	</div>
+    <div class="slide"><h1><a href="http://www.michael54.com/tripleybeta/symfony/web/app.php/home">SFU CS Academic Search</a></h1></div>
+    <div class="slide"><h1><a href="http://ido.demo.jit.su/">Node.js Multiplayer Drawing Game</a></h1></div>
     <div class="slide"><h1>In the most simple way ever</h1></div>
 </div>
-<div class="section" id="section2"><h1>Just testing it</h1></div>
 <div class="section" id="section3"><h1>Looks good</h1></div>
+<div class="section" id="section4"><!-- Facebook Badge START --><a href="https://www.facebook.com/michaelyu54" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Yu Yu">Yu Yu</a><br/><a href="https://www.facebook.com/michaelyu54" target="_TOP" title="Yu Yu"><img src="https://badge.facebook.com/badge/1289814043.1.1942854493.png" style="border: 0px;" /></a><br/><a href="https://www.facebook.com/badges/" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Make your own badge!">Create Your Badge</a><!-- Facebook Badge END --></div>
 
-
+</div>
 </body>
 </html>
